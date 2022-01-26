@@ -1,0 +1,134 @@
+.container {
+  width: 70% !important;
+}
+
+.main-section .head-container {
+  width: 70% !important;
+}
+
+.main-section .head-container nav .navbar-brand {
+  font-size: xx-large;
+}
+
+.main-section .head-container nav .nav-left {
+  margin-right: auto;
+}
+
+.main-section .head-container nav .collapse .nav-left li {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.main-section .head-container nav .collapse .nav-left li a {
+  color: white !important;
+}
+
+.main-section .head-container nav .nav-right {
+  margin-left: auto;
+  float: right;
+}
+
+.main-section .head-container nav .nav-right .svg-colors {
+  width: 20px;
+  height: 20px;
+  -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+          filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.main-section .head-container nav .inline-line {
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  border-color: purple;
+}
+
+.category-section {
+  background-color: #f0f7f8 !important;
+}
+
+.category-section .container {
+  width: 70% !important;
+}
+
+.category-section .row-1 .box-f {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(15%, transparent), color-stop(15%, var(--clr-border)), color-stop(85%, var(--clr-border)), color-stop(85%, transparent)), -webkit-gradient(linear, left top, right top, color-stop(15%, transparent), color-stop(15%, var(--clr-border)), color-stop(85%, var(--clr-border)), color-stop(85%, transparent)), -webkit-gradient(linear, left top, left bottom, color-stop(15%, transparent), color-stop(15%, var(--clr-border)), color-stop(85%, var(--clr-border)), color-stop(85%, transparent)), -webkit-gradient(linear, right top, left top, color-stop(15%, transparent), color-stop(15%, var(--clr-border)), color-stop(85%, var(--clr-border)), color-stop(85%, transparent));
+  background-image: linear-gradient(0deg, transparent 15%, var(--clr-border) 15%, var(--clr-border) 85%, transparent 85%), linear-gradient(90deg, transparent 15%, var(--clr-border) 15%, var(--clr-border) 85%, transparent 85%), linear-gradient(180deg, transparent 15%, var(--clr-border) 15%, var(--clr-border) 85%, transparent 85%), linear-gradient(270deg, transparent 15%, var(--clr-border) 15%, var(--clr-border) 85%, transparent 85%);
+}
+
+.category-section .row-1 button:hover {
+  background-color: #972222;
+  -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
+}
+
+.category-section .row-1 img {
+  width: 70%;
+}
+
+.category-section .row-2 .box-f {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(15%, transparent), color-stop(15%, var(--clr-border)), color-stop(85%, var(--clr-border)), color-stop(85%, transparent)), -webkit-gradient(linear, left top, right top, color-stop(15%, transparent), color-stop(15%, var(--clr-border)), color-stop(85%, var(--clr-border)), color-stop(85%, transparent)), -webkit-gradient(linear, left top, left bottom, color-stop(15%, transparent), color-stop(15%, var(--clr-border)), color-stop(85%, var(--clr-border)), color-stop(85%, transparent)), -webkit-gradient(linear, right top, left top, color-stop(15%, transparent), color-stop(15%, var(--clr-border)), color-stop(85%, var(--clr-border)), color-stop(85%, transparent));
+  background-image: linear-gradient(0deg, transparent 15%, var(--clr-border) 15%, var(--clr-border) 85%, transparent 85%), linear-gradient(90deg, transparent 15%, var(--clr-border) 15%, var(--clr-border) 85%, transparent 85%), linear-gradient(180deg, transparent 15%, var(--clr-border) 15%, var(--clr-border) 85%, transparent 85%), linear-gradient(270deg, transparent 15%, var(--clr-border) 15%, var(--clr-border) 85%, transparent 85%);
+}
+
+.category-section .row-2 button:hover {
+  background-color: #972222;
+  -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
+}
+
+.category-section .row-2 img {
+  width: 70%;
+}
+
+.card-section .card-group .row-1 .col-4 .card {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.card-section .card-group .row-1 .col-4 .card .hover-glass:hover {
+  z-index: 20;
+  background-color: rgba(168, 74, 74, 0.4);
+}
+
+.card-section .card-group .row-1 .col-4 .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0px 2px 5px 5px gray;
+          box-shadow: 0px 2px 5px 5px gray;
+}
+
+.card-section .card-group .row-1 .col-4 .stars img {
+  width: 12px;
+}
+
+.card-section .card-group .row-2 .col-4 .card {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.card-section .card-group .row-2 .col-4 .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0px 2px 5px 5px gray;
+          box-shadow: 0px 2px 5px 5px gray;
+}
+
+.card-section .card-group .row-2 .col-4 .stars img {
+  width: 12px;
+}
+
+.carousel-section .carousel-indicatorss {
+  color: #972222 !important;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+  background-color: black !important;
+}
+/*# sourceMappingURL=style.css.map */
